@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linking Documents from HTML LECTURES</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Kalam:wght@400;700&family=Rubik+Doodle+Shadow&family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: "Rubik", sans-serif;
+      }
+      html {
+        font-size: 62.5%;
+        color: #1f1d22;
+      }
+
+      .container {
+        background-color: #f1dede;
+        width: 130rem;
+        height: 90vh;
+        margin: auto;
+        margin-top: 3rem;
+        border-radius: 11px;
+      }
+      .heading {
+        text-align: center;
+        padding: 1rem;
+        font-size: 4.4rem;
+        letter-spacing: -0.75px;
+        text-transform: uppercase;
+      }
+      hr {
+        border: 1px solid rgba(0, 0, 0, 0.267);
+        margin-bottom: 4rem;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 3.6rem;
+        padding: 0px 3.6rem;
+      }
+      .cards {
+        background: rgba(0, 0, 0, 0.73);
+        border-radius: 9px;
+        color: #f1dede;
+        box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.427);
+      }
+      .subheading {
+        text-align: center;
+        font-size: 2.6rem;
+        padding: 1.8rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.507);
+      }
+      .links {
+        color: rgb(0, 0, 0);
+        font-size: 1.6rem;
+        justify-content: center;
+        gap: 1.2rem;
+        display: flex;
+        flex-direction: column;
+        column-gap: 4.8rem;
+      }
+
+      /* .links li{
+margin-left: 10px;
+      } */
+      .elements:link,
+      .elements:visited {
+        font-size: 1.6rem;
+        line-height: 1.8;
+        color: #f1dede;
+        text-decoration: none;
+        display: block;
+        padding: 0.2rem 1.2rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="heading">links to all files</h1>
+        <hr />
+      </header>
+
+      <main class="grid">
+        <!-- CLASSES -->
+        <div class="cards">
+          <h2 class="subheading">Classes</h2>
+          <nav>
+            <ol class="links">
+              <li>
+                <a class="elements" href="./TRANSITIONS/transition.html"
+                  >Transitions</a
+                >
+              </li>
+              <li>
+                <a class="elements" href="./COLORS/colours.html">Colors</a>
+              </li>
+              <li>
+                <a class="elements" href="./FONT-VERSIONS/font.html">Fonts</a>
+              </li>
+              <li>
+                <a class="elements" href="./assignment/linear gradient.html"
+                  >Linear-gradient</a
+                >
+              </li>
+              <li>
+                <a class="elements" href="./assignment/media.html">Media</a>
+              </li>
+              <li>
+                <a class="elements" href="./INTROS/border.html">Intros</a>
+              </li>
+            </ol>
+          </nav>
+        </div>
+
+        <!-- PROJECTS -->
+        <div class="cards">
+          <h2 class="subheading">Mini-Projects</h2>
+
+          <nav>
+            <ol class="links">
+              <li>
+                <a class="elements" href="./WHATSAPP/whatsapp.html">Whatsapp</a>
+              </li>
+              <li>
+                <a class="elements" href="./TIGER-HEAD/tiger.html"
+                  >Tiger Head</a
+                >
+              </li>
+              <li>
+                <a class="elements" href="./assignment/draft-board.html"
+                  >Draft Board</a
+                >
+              </li>
+              <li>
+                <a class="elements" href="./assignment/ludo.html">Ludo</a>
+              </li>
+
+              <li>
+                <a class="elements" href="./BANK-DASHB/dashboard.html"
+                  >Bank Dashboard</a
+                >
+              </li>
+            </ol>
+          </nav>
+        </div>
+
+        <!-- ASSIGNMENTS -->
+        <div class="cards">
+          <h2 class="subheading">Assignments</h2>
+
+          <nav>
+            <ol class="links">
+              <li>
+                <a class="elements" href="./W3HEADER/w3header.html"
+                  >W3 Schools Header</a
+                >
+              </li>
+              <li>
+                <a class="elements" href="./assignment/blog.html">Blog</a>
+              </li>
+
+              <li><a class="elements" href="./FAN/fan.html">Fan</a></li>
+              <li>
+                <a class="elements" href="./TABLE-TENNIS/bat.html"
+                  >Table Tennis Bat</a
+                >
+              </li>
+
+              <li><a class="elements" href="./SNAKE/snake.html">Snake</a></li>
+              <li><a class="elements" href="./TABLE/table.html">Table</a></li>
+              <li><a class="elements" href="./assignment/tv.html">TV</a></li>
+              <li>
+                <a class="elements" href="./assignment/practice.html"
+                  >Accordion</a
+                >
+              </li>
+            </ol>
+          </nav>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

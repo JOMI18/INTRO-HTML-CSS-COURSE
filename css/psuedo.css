@@ -1,0 +1,161 @@
+.hover .sweet{
+    height: 50px;
+    width: 200px;
+    background-color: chartreuse;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.hover:hover .sweet {
+    display: flex;
+}
+.chat {
+    position: absolute;
+    width: 80%;
+    height: 100vh;
+    background-color: cornflowerblue;
+    box-shadow: 0px 0px 2px #000;
+    display: none;
+    top: 0;
+    left: 15%;
+
+}
+button:focus .chat {
+    display:flex;
+}
+.oma {
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.oma::after {
+    content: url('');
+    height: 100px;
+    width: 300px;
+    margin-left: 40px;
+    margin-top: 50px;
+    position: absolute;
+    background-color: blue;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    box-shadow: 0px 0px 3px black;
+}
+.oma::before {
+    content: url('');
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    margin-left: 10px;
+    background-color: red;
+    border-bottom-left-radius: 30px;
+    box-shadow: 0px 0px 3px black;
+}
+.oma::-webkit-scrollbar-thumb {
+    background-color: aqua;
+}
+.oma::-webkit-scrollbar {
+    background-color: yellow;
+}
+input::placeholder {
+    background-color: blue;
+    color: aliceblue;
+}
+.ball {
+    height: 130px;
+    width: 130px;
+    background-color: green;
+    margin-left: 250px;
+    transition: 1s all;
+    animation-name: move;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
+    -webkit-transition: 1s all;
+    -moz-transition: 1s all;
+    -ms-transition: 1s all;
+    -o-transition: 1s all;
+}
+.leg{
+    height: 300px;
+    width: 30px;
+    background-color: rgb(46, 45, 45);
+    margin-left: 300px;
+    margin-top: -2px;
+    
+    
+}
+@keyframes move {
+    10%{
+       transform: rotate(36deg);
+       -webkit-transform: rotate(36deg);
+       -moz-transform: rotate(36deg);
+       -ms-transform: rotate(36deg);
+       -o-transform: rotate(36deg);
+}
+    20%{
+       transform: rotate(72deg);
+       -webkit-transform: rotate(72deg);
+       -moz-transform: rotate(72deg);
+       -ms-transform: rotate(72deg);
+       -o-transform: rotate(72deg);
+}
+    30%{
+       transform: rotate(108deg);
+       -webkit-transform: rotate(108deg);
+       -moz-transform: rotate(108deg);
+       -ms-transform: rotate(108deg);
+       -o-transform: rotate(108deg);
+}
+    40%{
+       transform: rotate(144deg);
+       -webkit-transform: rotate(144deg);
+       -moz-transform: rotate(144deg);
+       -ms-transform: rotate(144deg);
+       -o-transform: rotate(144deg);
+}
+    50%{
+       transform: rotate(180deg);
+       -webkit-transform: rotate(180deg);
+       -moz-transform: rotate(180deg);
+       -ms-transform: rotate(180deg);
+       -o-transform: rotate(180deg);
+}
+    60%{
+       transform: rotate(216deg);
+       -webkit-transform: rotate(216deg);
+       -moz-transform: rotate(216deg);
+       -ms-transform: rotate(216deg);
+       -o-transform: rotate(216deg);
+}
+    70%{
+       transform: rotate(252deg);
+       -webkit-transform: rotate(252deg);
+       -moz-transform: rotate(252deg);
+       -ms-transform: rotate(252deg);
+       -o-transform: rotate(252deg);
+}
+    80%{
+       transform: rotate(288deg);
+       -webkit-transform: rotate(288deg);
+       -moz-transform: rotate(288deg);
+       -ms-transform: rotate(288deg);
+       -o-transform: rotate(288deg);
+}
+    90%{
+       transform: rotate(324deg);
+       -webkit-transform: rotate(324deg);
+       -moz-transform: rotate(324deg);
+       -ms-transform: rotate(324deg);
+       -o-transform: rotate(324deg);
+}
+    100%{
+       transform: rotate(360deg);
+       -webkit-transform: rotate(360deg);
+       -moz-transform: rotate(360deg);
+       -ms-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+}
+
+}

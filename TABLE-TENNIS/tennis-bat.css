@@ -1,0 +1,91 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
+.head {
+    height: 170px;
+    width: 150px;
+    border: 1px solid red;
+    border-radius: 60%;
+    background-color: red;
+    margin-top: 200px;
+    box-shadow: 2px 2px 2px #000,0px -2px 2px #5d95d6;
+        
+}
+.head2 {
+    height: 170px;
+    width: 150px;
+    border: 1px solid red;
+    border-radius: 60%;
+    background-color: red;
+    margin-top: -150px;
+    margin-left: 300px;
+    box-shadow: 0px 4px 2px #000,0px -2px 2px #5d95d6;
+    -webkit-border-radius: 60%;
+    -moz-border-radius: 60%;
+    -ms-border-radius: 60%;
+    -o-border-radius: 60%;
+}
+ .bridge1 {
+    height: 13px;
+    width: 75px;
+    background-color: #12799b;
+     margin-left: 37px;
+    margin-top: -16px;
+    border: 1px solid #12799b;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: -2px 0px 2px #12799b,2px 0px 2px #12799b;
+} 
+ .bridge {
+    height: 13px;
+    width: 75px;
+    background-color: #12799b;
+    margin-left: 337px;
+    margin-top: -14px;
+    border: 1px solid #12799b;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: -2px 0px 2px #12799b,2px 0px 2px #12799b;
+ }
+ .handle {
+    height: 120px;
+    width: 30px;
+    background-color: #12799b;
+    margin-left: 59px;
+    margin-top: -15px;
+    margin-right: -100px;
+    border: 1px solid #12799b;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    box-shadow: 0px 3px 2px #000;
+}
+.handle2 {
+    height: 120px;
+    width: 30px;
+    background-color: #12799b;
+    margin-left: 360px;
+    margin-top: -15px;
+    margin-right: 100px;
+    border: 1px solid #12799b;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+     box-shadow: 0px 3px 2px #000; 
+}
+.egg{
+    height: 30px;
+    width: 30px;
+    background-color: #e9e94f;
+    box-shadow: 0px 2px 2px #252524,-1px 0px 2px #e9e94f;
+    border-radius: 100%;
+    margin-top: -250px;
+    margin-left: 200px;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}

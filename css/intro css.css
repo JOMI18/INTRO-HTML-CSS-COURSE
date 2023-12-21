@@ -1,0 +1,75 @@
+#css {
+    color: blue;
+    font-size: 60px;
+}
+#world {
+    color:green;
+    font-size: 90px;
+}
+input {
+    /* outline: none; */
+    outline-width: 3px;
+    outline-color: green;
+    outline-style: solid;
+
+}
+.lorem {
+    text-align: justify;
+    text-decoration: overline;
+
+}
+.a{
+    /*text-decoration: none;
+    *//*color: black;
+    */height: 30px;
+    width: 30px;
+    border-radius:100% ;
+    background-color: magenta;
+    box-shadow: 0px 100px 1px red,100px 0px 1px blue;
+    font-size: 55px;
+    font-weight: bolder;
+    font-style: italic;
+    /*text-shadow:0px 100px 1px red,100px 30px 1px blue, 150px  100px 1px green,250px 100px 1px chartreuse, 200px 0px 1px yellow;
+    */
+}
+a:link   {
+    color: green;
+}
+a:visited {
+    color: yellow;
+}
+ul,li {
+    list-style-type: georgian;
+    list-style-image: url(../img/old-phone.jpg);
+}
+table{
+    width: 100%;
+    height: 400px;
+
+}
+table,tr,th,td {
+    border: 1px solid red;
+    text-align: center;
+    border-collapse: collapse;
+}
+.body {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    position: fixed;
+    /* overflow: scroll; */
+    overflow: hidden;
+}
+.body .ball {
+    width: 400px;
+    height: 450px;
+    border-radius: 300px;
+    background-color: black;
+    position: absolute;
+    top: -30px;
+    left: 300px;
+    -webkit-border-radius: 300px;
+    -moz-border-radius: 300px;
+    -ms-border-radius: 300px;
+    -o-border-radius: 300px;
+} 
